@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://map0logo.github.io/localiza/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/2016/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/archive.html</loc>
+  <lastmod>2016-02-06T05:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/categories/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/2016/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/archive.html</loc>
+  <lastmod>2016-02-06T05:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/categories/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/galleries/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/es/posts/starting-localiza/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/posts/starting-localiza/" />
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/galleries/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/listings/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/posts/starting-localiza/</loc>
+  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://map0logo.github.io/localiza/es/posts/starting-localiza/" />
+ </url>
+</urlset>

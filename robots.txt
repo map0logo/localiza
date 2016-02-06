@@ -1,0 +1,4 @@
+Sitemap: https://map0logo.github.io/localiza/sitemapindex.xml
+
+User-Agent: *
+Host: map0logo.github.io
