@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://map0logo.github.io/localiza/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-02-06T05:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/2016/</loc>
@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-02-06T05:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/2016/</loc>
@@ -47,6 +47,11 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/posts/starting-localiza/" />
  </url>
  <url>
+  <loc>https://map0logo.github.io/localiza/es/stories/about/</loc>
+  <lastmod>2016-02-06T05:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/stories/about/" />
+ </url>
+ <url>
   <loc>https://map0logo.github.io/localiza/galleries/</loc>
   <lastmod>2016-02-06T05:36:00Z</lastmod>
  </url>
@@ -58,5 +63,10 @@
   <loc>https://map0logo.github.io/localiza/posts/starting-localiza/</loc>
   <lastmod>2016-02-06T05:36:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="es" href="https://map0logo.github.io/localiza/es/posts/starting-localiza/" />
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/stories/about/</loc>
+  <lastmod>2016-02-06T05:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="https://map0logo.github.io/localiza/es/stories/about/" />
  </url>
 </urlset>
