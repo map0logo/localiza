@@ -6,67 +6,69 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://map0logo.github.io/localiza/</loc>
-  <lastmod>2016-02-06T05:51:00Z</lastmod>
+  <loc>https://map0logo.github.io/localiza/en/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://map0logo.github.io/localiza/2016/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <loc>https://map0logo.github.io/localiza/en/2016/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://map0logo.github.io/localiza/archive.html</loc>
-  <lastmod>2016-02-06T05:41:00Z</lastmod>
+  <loc>https://map0logo.github.io/localiza/en/archive.html</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://map0logo.github.io/localiza/categories/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <loc>https://map0logo.github.io/localiza/en/categories/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/en/galleries/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/en/posts/starting-localiza/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://map0logo.github.io/localiza/en/stories/about/</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/</loc>
-  <lastmod>2016-02-06T05:51:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/2016/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/archive.html</loc>
-  <lastmod>2016-02-06T05:41:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/categories/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/galleries/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/posts/starting-localiza/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/posts/starting-localiza/" />
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/en/posts/starting-localiza/" />
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/es/stories/about/</loc>
-  <lastmod>2016-02-06T05:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/stories/about/" />
- </url>
- <url>
-  <loc>https://map0logo.github.io/localiza/galleries/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://map0logo.github.io/localiza/en/stories/about/" />
  </url>
  <url>
   <loc>https://map0logo.github.io/localiza/listings/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://map0logo.github.io/localiza/posts/starting-localiza/</loc>
-  <lastmod>2016-02-06T05:36:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://map0logo.github.io/localiza/es/posts/starting-localiza/" />
- </url>
- <url>
-  <loc>https://map0logo.github.io/localiza/stories/about/</loc>
-  <lastmod>2016-02-06T05:51:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://map0logo.github.io/localiza/es/stories/about/" />
+  <loc>https://map0logo.github.io/localiza/listings/.gitkeep.html</loc>
+  <lastmod>2016-03-21T05:16:00Z</lastmod>
  </url>
 </urlset>
