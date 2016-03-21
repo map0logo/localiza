@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "material-theme"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -1154,9 +1154,46 @@ UNSLUGIFY_TITLES = True
 # those.
 # TEMPLATE_FILTERS = {}
 
+BIOGRAPHY = """
+<img class="img-circle" style="float:left;margin:10px 20px 10px 0px;max-height:200px;" src="/images/avatar.png">
+<p>Francisco Palm. geomática poética, geomancia matemática, hacktivista, Python & R, Pop & Rock Indie, Otaku & Geek, Zen & K, Utopía & Emancipación</p>
+"""
+
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    "header_color": 'success',
+    "social_links": [
+    {
+        'bgcolor': "#F44336",
+        'icon': "<i class='fa fa-share-square-o'></i>"
+    },
+    {
+        "url": "https://twitter.com/",
+        "bgcolor": "#55ACEE",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-twitter'></i>",
+        "target": "_blank"
+    },
+    {
+        "url": "https://github.com/",
+        "bgcolor": "#666666",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-github-square'></i>",
+        "target": "_blank"
+    },
+    {
+        "url": "https://www.facebook.com",
+        "bgcolor": "#3B5998",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-facebook'></i>",
+        "target": "_blank"
+    },
+    "author_avatar": '/images/avatar.png',
+    "biography": BIOGRAPHY,
+    ]
+                                                
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
