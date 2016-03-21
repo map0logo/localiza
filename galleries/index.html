@@ -5,17 +5,24 @@ article: http://ogp.me/ns/article#
 " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Open source library for location models and science">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Localiza | Localiza</title>
+<title>galleries | Localiza</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../es/rss.xml">
-<link rel="canonical" href="https://map0logo.github.io/localiza/en/">
+<link rel="canonical" href="https://map0logo.github.io/localiza/galleries/">
 <!--[if lt IE 9]>
             <script src="../assets/js/html5shiv.min.js"></script>
             <script src="../assets/js/respond.min.js"></script>
-        <![endif]-->
+        <![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
+    .image-block {
+        display: inline-block;
+    }
+    .flowr_row {
+        width: 100%;
+    }
+    </style>
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -26,7 +33,7 @@ article: http://ogp.me/ns/article#
         <div class="row">
           <div class="col-xs-3">
             <h1 class="title-blog">
-                <a href="https://map0logo.github.io/localiza/en/">
+                <a href="https://map0logo.github.io/localiza/">
                         <span id="blog-title">Localiza</span>
                     </a>
             </h1>
@@ -50,28 +57,12 @@ article: http://ogp.me/ns/article#
                     
                 </ul></nav><div class="posts-material col-xs-9">
                 <div class="col-xs-12 col-md-11 content-material">
-
-    <div class="postindex well post-material ">
-        <article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="posts/starting-localiza/" class="u-url">Starting Localiza</a></h1>
-            <div class="metadata">
-                <span class="byline author vcard">
-                        <img class="img-circle" src="../images/avatar.png" alt="icon">
-                    Francisco Palm
-                </span>
-                <span class="dateline"><a href="posts/starting-localiza/" rel="bookmark">
-                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2016-03-21T05:07:18+00:00" title="2016-03-21 05:07">2016-03-21 05:07</time></a></span>
-                    <span class="commentline">        
-</span>
-            </div>
-            <hr></header><div class="e-content entry-content">
-        <p>Write your post here.</p>
-        </div>
-        </article>
-</div>
-
-        
-
-
+    <div class="page">
+        <nav class="breadcrumbs"><ul class="breadcrumb">
+<li>galleries</li>
+</ul></nav><h1>galleries</h1>
+        <div id="gallery_container"></div>
+    </div>
                 </div>
             </div>
         </div>
@@ -110,29 +101,29 @@ article: http://ogp.me/ns/article#
             <script src="../assets/js/all-nocdn.js"></script><script>
                 var links = [
                         {
-                            "bgcolor": "#F44336",
                             "icon": "<i class='fa fa-share-square-o'></i>",
+                            "bgcolor": "#F44336",
                         },
                         {
                             "url": "https://twitter.com/",
-                            "bgcolor": "#55ACEE",
-                            "target": "_blank",
-                            "color": "#fffff",
                             "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#55ACEE",
                         },
                         {
                             "url": "https://github.com/",
-                            "bgcolor": "#666666",
-                            "target": "_blank",
-                            "color": "#fffff",
                             "icon": "<i class='fa fa-github-square'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#666666",
                         },
                         {
                             "url": "https://www.facebook.com",
-                            "bgcolor": "#3B5998",
-                            "target": "_blank",
-                            "color": "#fffff",
                             "icon": "<i class='fa fa-facebook'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#3B5998",
                         },
                 ];
 
@@ -150,6 +141,42 @@ article: http://ogp.me/ns/article#
         </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates -->
+    </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
+jsonContent = [];
+$("#gallery_container").flowr({
+        data : jsonContent,
+        height : 180*.6,
+        padding: 15,
+        rows: -1,
+        render : function(params) {
+            // Just return a div, string or a dom object, anything works fine
+            img = $("<img />").attr({
+                'src': params.itemData.url_thumb,
+                'width' : params.width,
+                'height' : params.height
+            }).css('max-width', '100%');
+            link = $( "<a></a>").attr({
+                'href': params.itemData.url,
+                'class': 'image-reference'
+            });
+            div = $("<div />").addClass('image-block shadow-z-3').attr({
+                'title': params.itemData.title,
+                'data-toggle': "tooltip",
+            });
+            link.append(img);
+            div.append(link);
+            div.hover(div.tooltip());
+            return div;
+        },
+        itemWidth : function(data) { return data.size.w; },
+        itemHeight : function(data) { return data.size.h; },
+        complete : function(params) {
+            if( jsonContent.length > params.renderedItems ) {
+                nextRenderList = jsonContent.slice( params.renderedItems );
+            }
+        }
+    });
+$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+</script>
 </body>
 </html>
