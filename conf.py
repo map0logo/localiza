@@ -1189,9 +1189,9 @@ GLOBAL_CONTEXT = {
         "icon": "<i class='fa fa-facebook'></i>",
         "target": "_blank"
     },
+    ],
     "author_avatar": '/images/avatar.png',
     "biography": BIOGRAPHY,
-    ]
                                                 
 }
 
