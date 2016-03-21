@@ -87,7 +87,7 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "en",
+    DEFAULT_LANG: "",
     # Example for another language:
     "es": "./es",
 }
@@ -140,7 +140,7 @@ THEME = "material-theme"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+# THEME_COLOR = '#5670d4'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
