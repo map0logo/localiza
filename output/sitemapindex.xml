@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://map0logo.github.io/localiza/en/galleries/rss.xml</loc>
-  <lastmod>2016-03-21T05:38:00Z</lastmod>
+  <lastmod>2016-03-21T05:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://map0logo.github.io/localiza/en/rss.xml</loc>
@@ -15,7 +15,7 @@
  </sitemap>
  <sitemap>
   <loc>https://map0logo.github.io/localiza/es/galleries/rss.xml</loc>
-  <lastmod>2016-03-21T05:38:00Z</lastmod>
+  <lastmod>2016-03-21T05:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://map0logo.github.io/localiza/es/rss.xml</loc>
@@ -23,6 +23,6 @@
  </sitemap>
  <sitemap>
   <loc>https://map0logo.github.io/localiza/sitemap.xml</loc>
-  <lastmod>2016-03-21T05:38:00Z</lastmod>
+  <lastmod>2016-03-21T05:49:00Z</lastmod>
  </sitemap>
 </sitemapindex>
