@@ -25,7 +25,8 @@ test_requirements = [
 setup(
     name='localiza',
     version='0.1.0',
-    description="Python library for optimal facility location, and location analysis models",
+    description="Open source library for location models and science written in\
+    Python intended to the development of high level applications.",
     long_description=readme + '\n\n' + history,
     author="Francisco Palm",
     author_email='mapologo@tuta.io',
@@ -37,13 +38,13 @@ setup(
                  'localiza'},
     include_package_data=True,
     install_requires=requirements,
-    license="ISCL",
+    license="BSD-3-clause",
     zip_safe=False,
     keywords='localiza',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: ISC License (ISCL)',
+        'License :: OSI Approved :: BSD-3-clause',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.6',
